@@ -1,0 +1,24 @@
+# module && after build code
+node_modules/**/*
+dist/**/*
+
+# Logs
+/log*/**/*
+*.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VScode config info
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# yarn
+yarn.lock
